@@ -1,0 +1,10 @@
+TABLE us_state_vaccinations (
+	date float,
+	location varchar(255),
+	total_vaccinations float,
+	total_distributed float,
+	people_vaccinated float,
+	daily_vaccinations float,
+	share_dose float
+)
+

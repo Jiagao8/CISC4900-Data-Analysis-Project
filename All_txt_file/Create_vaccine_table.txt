@@ -1,0 +1,20 @@
+CREATE TABLE Vaccine (	
+	Date float,
+	MMWR_week float,
+	Location varchar(255),
+	Administered_Daily float,
+	Administered_Cumulative float,
+	Administered_7_Day_Rolling_Average float,
+	Admin_Dose_1_Daily float,
+	Admin_Dose_1_Cumulative float,
+	Admin_Dose_1_Day_Rolling_Average float,
+	date_type float,
+	Administered_daily_change_report float,
+	Administered_daily_change_report_7dayroll float,
+	Series_Complete_Daily float,
+	Series_Complete_Cumulative float,
+	Series_Complete_Day_Rolling_Average float,
+	Booster_Daily float,
+	Booster_Cumulative float,
+	Booster_7_Day_Rolling_Average float
+);

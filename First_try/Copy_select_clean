@@ -1,0 +1,20 @@
+COPY global
+FROM '/Users/jiani/Desktop/Covid4900Project/Global Data/globalData.csv'
+DELIMITER ',' csv header;
+
+SELECT 
+	iso_code, 
+	continent, 
+	location, 
+	date, 
+	total_cases, 
+	total_deaths, 
+	total_vaccinations, 
+	people_vaccinated, 
+	people_fully_vaccinated, 
+	total_boosters, 
+	population
+	
+FROM global
+ORDER BY
+	iso_code ASC;

@@ -1,0 +1,17 @@
+ALTER TABLE us_vaccination
+ADD COLUMN date float,
+ADD COLUMN location varchar(255),
+ADD COLUMN total_vaccinations float,
+ADD COLUMN total_distributed float,
+ADD COLUMN people_vaccinated float,
+ADD COLUMN people_fully_vaccinated_per_hundred float,
+ADD COLUMN total_vaccinations_per_hundred float,
+ADD COLUMN people_fully_vaccinated float,
+ADD COLUMN people_vaccinated_per_hundred float,
+ADD COLUMN distributed_per_hundred float,
+ADD COLUMN daily_vaccinations_raw float,
+ADD COLUMN daily_vaccinations float,
+ADD COLUMN daily_vaccinations_per_million float,
+ADD COLUMN share_doses_used float,
+ADD COLUMN total_boosters float,
+ADD COLUMN total_boosters_per_hundred float;

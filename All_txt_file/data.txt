@@ -1,0 +1,12 @@
+SELECT 
+	date,
+	location,
+	administered_daily,
+	administered_cumulative
+
+FROM 
+	vaccine
+
+ORDER BY 
+	date ASC,
+	location ASC;
