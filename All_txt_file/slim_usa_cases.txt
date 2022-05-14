@@ -1,0 +1,11 @@
+SELECT 
+	submission_date,
+	state, 
+	tot_cases,
+	tot_death
+
+FROM infection
+
+ORDER BY
+	submission_date ASC,
+	state ASC

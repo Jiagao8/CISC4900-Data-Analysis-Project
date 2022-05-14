@@ -1,0 +1,4 @@
+COPY infection
+FROM '/Users/jiani/Desktop/Covid4900Project/USA_Data/usa_state_cases.csv'
+DELIMITER ','
+CSV HEADER;	

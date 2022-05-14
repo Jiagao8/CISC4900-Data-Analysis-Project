@@ -1,0 +1,3 @@
+ALTER TABLE infection
+ALTER COLUMN submission_date TYPE DATE 
+using to_date(submission_date, 'MM/DD/YYYY');
